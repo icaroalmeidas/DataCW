@@ -1,0 +1,51 @@
+======================================================================
+RELATÓRIO DE ANÁLISE DE DADOS - AMAZON REVIEWS
+======================================================================
+
+Data da Análise: 20/11/2025 18:10:47
+Analista: Icaro Almeida de Souza
+
+======================================================================
+1. RESUMO DO DATASET
+======================================================================
+Total de Registros: 399
+Total de Colunas: 16
+Colunas Numéricas: 0
+Colunas Categóricas: 16
+Duplicatas Removidas: 959
+Valores Ausentes: 19,191
+
+======================================================================
+2. ESTRUTURA DO DATASET
+======================================================================
+1. product_id (object)
+2. product_name (object)
+3. category (object)
+4. discounted_price (object)
+5. actual_price (object)
+6. discount_percentage (object)
+7. rating (object)
+8. rating_count (object)
+9. about_product (object)
+10. user_id (object)
+11. user_name (object)
+12. review_id (object)
+13. review_title (object)
+14. review_content (object)
+15. img_link (object)
+16. product_link;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; (object)
+
+
+======================================================================
+4. CONCLUSÕES E RECOMENDAÇÕES
+======================================================================
+
+- Dataset carregado e processado com sucesso
+- 959 linhas duplicadas foram removidas
+- Identificados 19,191 valores ausentes que requerem tratamento
+- Visualizações geradas e salvas no diretório de gráficos
+
+Recomendações:
+1. Avaliar o tratamento adequado para valores ausentes
+2. Considerar normalização/padronização das variáveis numéricas
+3. Realizar análise mais aprofundada das correlações identificadas
